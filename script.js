@@ -12,11 +12,11 @@ const personalMovieDB = {
 };
 
 
-const 
-a = prompt('One of films You have seen?', ''),
-      b = prompt('How could You rate it?', ''),
-      c = prompt('One of films You have seen?', ''),
-      d = prompt('How could You rate it?', '');
+const
+    a = prompt('One of films You have seen?', ''),
+    b = prompt('How could You rate it?', ''),
+    c = prompt('One of films You have seen?', ''),
+    d = prompt('How could You rate it?', '');
 
 personalMovieDB.movies[a] = b;
 personalMovieDB.movies[c] = d;
